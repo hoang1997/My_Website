@@ -1,16 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './pages/App';
+import App from './pages/App/App';
 import * as serviceWorker from './serviceWorker';
 
-import { BrowserRouter } from "react-router-dom";
 
 
-ReactDOM.render(
+ReactDOM.render(<App/>,document.getElementById('root'));
     
-        <App/>,
-    
-    document.getElementById('root')
-);
-    
-    serviceWorker.unregister();
+ serviceWorker.unregister();
