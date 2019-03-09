@@ -20,9 +20,14 @@
 h1 {
     text-align: center;
     padding-top: 20px;
-    text-decoration: overline;
+    padding-bottom: 30px;
+    text-decoration: overline grey;
+    font-weight: 150;
+}
 
-
+h3 {
+    text-align: center;
+    margin: 20px
 }
 
 .profile-image {
@@ -39,9 +44,7 @@ h1 {
     padding-bottom: 50px;
 }
 
-.about-me-section {
-    padding-bottom: 50px;
-}
+
 
 .tech-card {
     margin: auto;
@@ -56,4 +59,18 @@ h1 {
 
 .about-me-row {
     margin: 50px auto;
+}
+
+.about-col {
+    padding: auto 100px;
+}
+
+.cover {
+    background-image: url('./Assets/dodgeball-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+     opacity: 0.7 ;
 }

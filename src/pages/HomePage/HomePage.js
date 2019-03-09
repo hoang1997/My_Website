@@ -4,6 +4,7 @@ import './HomePage.css';
 
 import AboutMe from './Components/AboutMe';
 import Skills from './Components/Skills';
+import Experience from './Components/Experience';
 
 export default class HomePage extends Component {
     render() {
@@ -11,12 +12,13 @@ export default class HomePage extends Component {
             <div>
                 <section>
                     <div className="panel-container">
-                        <Image className="homeCoverImg" alt="hello" src="../Assets/homePageCover.jpg" fluid styles={{backgroundPosition: "fixed"}}/>
+                        <Image className="homeCoverImg" alt="hello" src="../Assets/homePageCover.jpg" fluid style={{backgroundPosition: "fixed"}}/>
                         <div className="title">Joseph Hoang - Software Engineer</div>
                     </div>
                 </section>
                 <AboutMe />
-                <Skills/>
+                <Skills />
+                <Experience/>
             </div>
         )
     }

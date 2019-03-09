@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Row, Card, ListGroup, Container} from 'react-bootstrap';
+import { Row, Card, ListGroup,} from 'react-bootstrap';
 
 export default class Skills extends Component {
     render() {
@@ -25,23 +25,23 @@ export default class Skills extends Component {
                 <Row className="about-me-row">
                   
                     <Card className="tech-card" style={{ width: "30rem" }}>
-                        <strong style={{ textAlign: "center" }}>Frameworks</strong>
+                        <strong style={{ textAlign: "center", margin: "10px auto" }}>Framework Experience</strong>
                             <ListGroup variant="flush">
-                                <ListGroup.Item>React.js</ListGroup.Item>
-                                <ListGroup.Item>Gatsby.js</ListGroup.Item>
-                                <ListGroup.Item>jQuery Mobile</ListGroup.Item>
-                                <ListGroup.Item>Qt Framework</ListGroup.Item>
-                                <ListGroup.Item>OpenCL</ListGroup.Item>
+                                <ListGroup.Item><li>React.js</li></ListGroup.Item>
+                                <ListGroup.Item><li>Gatsby.js</li></ListGroup.Item>
+                                <ListGroup.Item><li>jQuery Mobile</li></ListGroup.Item>
+                                <ListGroup.Item><li>Qt Framework</li></ListGroup.Item>
+                                <ListGroup.Item><li>OpenCL</li></ListGroup.Item>
                             </ListGroup>
                         </Card>
                   
                     <Card className="tech-card" style={{ width: "30rem" }}>
-                        <strong style={{textAlign: "center"}}>Software</strong>
+                        <strong style={{ textAlign: "center", margin: "10px auto" }}>Software Tools Experince</strong>
                             <ListGroup variant="flush">
-                                <ListGroup.Item>Visual Studio</ListGroup.Item>
-                                <ListGroup.Item>Visual Studio Code</ListGroup.Item>
-                                <ListGroup.Item>Qt Creator</ListGroup.Item>
-                                <ListGroup.Item>Matlab</ListGroup.Item>
+                                <ListGroup.Item><li>Visual Studio</li></ListGroup.Item>
+                                <ListGroup.Item><li>Visual Studio Code</li></ListGroup.Item>
+                                <ListGroup.Item><li>Qt Creator</li></ListGroup.Item>
+                                <ListGroup.Item><li>Matlab</li></ListGroup.Item>
                             </ListGroup>
                         </Card>
                     
