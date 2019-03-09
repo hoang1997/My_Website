@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "c9878b49f6be8a99acd7",
-    "url": "/static/css/main.e643abc4.chunk.css"
+    "revision": "af4964a2e38317713441",
+    "url": "/static/css/main.f87887bb.chunk.css"
   },
   {
-    "revision": "c9878b49f6be8a99acd7",
+    "revision": "af4964a2e38317713441",
     "url": "/static/js/main.7d717cea.chunk.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/static/media/dodgeball-1.d3ca9fa3.jpg"
   },
   {
-    "revision": "b3761da3be994f1b3a4a45ed05b4cf82",
+    "revision": "7f467b5d67644cf9d1d8eef60f330712",
     "url": "/index.html"
   }
 ];
