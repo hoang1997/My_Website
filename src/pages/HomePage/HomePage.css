@@ -67,10 +67,11 @@ h3 {
 
 .cover {
     background-image: url('./Assets/dodgeball-1.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    height: 100vh;
+    background-repeat: no-repeat;
+    height: 150px;
     background-attachment: fixed;
-     background-repeat: no-repeat;
-     opacity: 0.7 ;
+    background-color: rgb(211,211,211);
+    
 }
